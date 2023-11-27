@@ -30,7 +30,7 @@ RUN apk add --no-cache \
   supervisor
   
 RUN apk add --no-cache git
-RUN curl -sS https://getcomposer.org/installer | php
+# RUN curl -sS https://getcomposer.org/installer | php
 
 # Configure nginx - http
 COPY config/nginx.conf /etc/nginx/nginx.conf

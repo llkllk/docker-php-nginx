@@ -56,7 +56,7 @@ COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN chown -R nobody.nobody /var/www/html /run /var/lib/nginx /var/log/nginx
 
 # Create symlink for php
-RUN ln -s /usr/bin/php81 /usr/bin/php
+#RUN ln -s /usr/bin/php81 /usr/bin/php
 
 # Switch to use a non-root user from here on
 USER nobody

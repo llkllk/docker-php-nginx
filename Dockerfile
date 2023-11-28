@@ -34,6 +34,7 @@ RUN apk add --no-cache \
   php81-xml \
   php81-xmlreader \
   php81-xmlwriter \
+  php81-simplexml \
   supervisor
 
 RUN apk add --no-cache git
